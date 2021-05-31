@@ -15,9 +15,11 @@
         <h3>Navigation</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fas fa-home"></i> Main</li></a>
-            <a href="{% url 'news_home' %}"><li><i class="fas fa-book"></i> News</li></a>
+            <a href="{% url 'news_home' %}"><li><i class="fas fa-newspaper"></i> News</li></a>
             <a href="{% url 'about' %}"><li><i class="fas fa-book"></i> About us</li></a>
             <a href=""><li><i class="fas fa-mobile-alt"></i> Contact</li></a>
+            <a href="{% url 'create' %}"><li><button class = "btn btn-info"><i class="fas fa-plus-circle"></i> Create </button></li></a>
+
         </ul>
     </aside>
     <main>
